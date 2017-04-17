@@ -47,3 +47,9 @@ Desarrollador(int edad) : Personal(edad, 0), lenguaje("C++") { }
 ```
 
 De esta forma elegi que constructor de la clase base utilizar, notar que siempre debe ir antes de todos los parametros de la clase.
+
+Para *destruir* un objeto, el orden correcto es primero el que hereda y despues la base, de esta forma el objeto no queda huerfano.
+
+## Bases de datos
+
+Podemos manejar ODBC, MySQL y SQLite.
